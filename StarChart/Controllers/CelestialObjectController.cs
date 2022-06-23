@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using StarChart.Data;
+using StarChart.Models;
 
 namespace StarChart.Controllers
 {
@@ -16,4 +17,10 @@ namespace StarChart.Controllers
             _context = context;
         }
     }
-}
+
+//    [HttpGet("{id:int}")]
+//    public IActionResult GetById(int id)
+//    {
+//        return OkObjectResult;
+//    }
+//}
