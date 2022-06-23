@@ -18,9 +18,9 @@ namespace StarChart.Controllers
         }
     }
 
-//    [HttpGet("{id:int}")]
-//    public IActionResult GetById(int id)
-//    {
-//        return OkObjectResult;
-//    }
-//}
+    //    [HttpGet("{id:int}")]
+    //    public IActionResult GetById(int id)
+    //    {
+    //        return OkObjectResult;
+    //    }
+}
